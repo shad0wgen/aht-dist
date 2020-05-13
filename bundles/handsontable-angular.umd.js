@@ -22,7 +22,7 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
- * Version: 5.1.0 (built at Thu Jul 11 2019 15:15:26 GMT+0200 (Central European Summer Time))
+ * Version: 5.1.1 (built at Thu Apr 16 2020 12:17:33 GMT+0200 (Central European Summer Time))
  */
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('handsontable')) :
@@ -755,6 +755,7 @@
             filteringCaseSensitive: [{ type: core.Input }],
             invalidCellClassName: [{ type: core.Input }],
             label: [{ type: core.Input }],
+            language: [{ type: core.Input }],
             noWordWrapClassName: [{ type: core.Input }],
             numericFormat: [{ type: core.Input }],
             placeholder: [{ type: core.Input }],
@@ -799,7 +800,7 @@
              * @return {?}
              */
             function () {
-                return '5.1.0';
+                return '5.1.1';
             },
             enumerable: true,
             configurable: true

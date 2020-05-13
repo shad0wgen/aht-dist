@@ -629,6 +629,7 @@ HotColumnComponent.propDecorators = {
     filteringCaseSensitive: [{ type: Input }],
     invalidCellClassName: [{ type: Input }],
     label: [{ type: Input }],
+    language: [{ type: Input }],
     noWordWrapClassName: [{ type: Input }],
     numericFormat: [{ type: Input }],
     placeholder: [{ type: Input }],
@@ -664,7 +665,7 @@ class Version {
      * @return {?}
      */
     static get version() {
-        return '5.1.0';
+        return '5.1.1';
     }
 }
 class HotTableModule extends Version {

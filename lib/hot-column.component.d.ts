@@ -1,7 +1,6 @@
 import { OnInit, OnChanges, OnDestroy } from '@angular/core';
 import { HotTableComponent } from './hot-table.component';
 import Handsontable from 'handsontable';
-import * as ɵngcc0 from '@angular/core';
 export declare class HotColumnComponent implements OnInit, OnChanges, OnDestroy {
     private parentComponent;
     private firstRun;
@@ -22,6 +21,7 @@ export declare class HotColumnComponent implements OnInit, OnChanges, OnDestroy 
     filteringCaseSensitive: Handsontable.GridSettings['filteringCaseSensitive'];
     invalidCellClassName: Handsontable.GridSettings['invalidCellClassName'];
     label: Handsontable.GridSettings['label'];
+    language: Handsontable.GridSettings['language'];
     noWordWrapClassName: Handsontable.GridSettings['noWordWrapClassName'];
     numericFormat: Handsontable.GridSettings['numericFormat'];
     placeholder: Handsontable.GridSettings['placeholder'];
@@ -46,46 +46,4 @@ export declare class HotColumnComponent implements OnInit, OnChanges, OnDestroy 
     ngOnInit(): void;
     ngOnChanges(): void;
     ngOnDestroy(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<HotColumnComponent>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<HotColumnComponent, "hot-column", never, {
-    "allowEmpty": "allowEmpty";
-    "allowHtml": "allowHtml";
-    "allowInvalid": "allowInvalid";
-    "checkedTemplate": "checkedTemplate";
-    "className": "className";
-    "columnSorting": "columnSorting";
-    "colWidths": "colWidths";
-    "commentedCellClassName": "commentedCellClassName";
-    "copyable": "copyable";
-    "correctFormat": "correctFormat";
-    "data": "data";
-    "dateFormat": "dateFormat";
-    "defaultDate": "defaultDate";
-    "editor": "editor";
-    "filteringCaseSensitive": "filteringCaseSensitive";
-    "invalidCellClassName": "invalidCellClassName";
-    "label": "label";
-    "noWordWrapClassName": "noWordWrapClassName";
-    "numericFormat": "numericFormat";
-    "placeholder": "placeholder";
-    "placeholderCellClassName": "placeholderCellClassName";
-    "readOnly": "readOnly";
-    "readOnlyCellClassName": "readOnlyCellClassName";
-    "renderer": "renderer";
-    "selectOptions": "selectOptions";
-    "skipColumnOnPaste": "skipColumnOnPaste";
-    "sortByRelevance": "sortByRelevance";
-    "source": "source";
-    "strict": "strict";
-    "title": "title";
-    "trimDropdown": "trimDropdown";
-    "type": "type";
-    "uncheckedTemplate": "uncheckedTemplate";
-    "validator": "validator";
-    "visibleRows": "visibleRows";
-    "width": "width";
-    "wordWrap": "wordWrap";
-}, {}, never>;
 }
-
-//# sourceMappingURL=hot-column.component.d.ts.map
