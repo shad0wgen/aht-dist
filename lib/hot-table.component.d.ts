@@ -342,7 +342,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "fixedColumnsLeft": "fixedColumnsLeft";
     "fixedRowsBottom": "fixedRowsBottom";
     "fixedRowsTop": "fixedRowsTop";
-    "formulas": "formulas";
     "fragmentSelection": "fragmentSelection";
     "ganttChart": "ganttChart";
     "headerTooltips": "headerTooltips";
@@ -352,7 +351,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "invalidCellClassName": "invalidCellClassName";
     "label": "label";
     "language": "language";
-    "licenseKey": "licenseKey";
     "manualColumnFreeze": "manualColumnFreeze";
     "manualColumnMove": "manualColumnMove";
     "manualColumnResize": "manualColumnResize";
@@ -367,7 +365,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "minSpareRows": "minSpareRows";
     "multiColumnSorting": "multiColumnSorting";
     "nestedHeaders": "nestedHeaders";
-    "nestedRows": "nestedRows";
     "noWordWrapClassName": "noWordWrapClassName";
     "numericFormat": "numericFormat";
     "observeChanges": "observeChanges";
@@ -399,7 +396,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "tabMoves": "tabMoves";
     "title": "title";
     "trimDropdown": "trimDropdown";
-    "trimRows": "trimRows";
     "trimWhitespace": "trimWhitespace";
     "type": "type";
     "uncheckedTemplate": "uncheckedTemplate";
@@ -440,8 +436,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "afterGetColumnHeaderRenderers": "afterGetColumnHeaderRenderers";
     "afterGetRowHeader": "afterGetRowHeader";
     "afterGetRowHeaderRenderers": "afterGetRowHeaderRenderers";
-    "afterHideColumns": "afterHideColumns";
-    "afterHideRows": "afterHideRows";
     "afterInit": "afterInit";
     "afterLanguageChange": "afterLanguageChange";
     "afterListen": "afterListen";
@@ -460,7 +454,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "afterPaste": "afterPaste";
     "afterPluginsInitialized": "afterPluginsInitialized";
     "afterRedo": "afterRedo";
-    "afterRefreshDimensions": "afterRefreshDimensions";
     "afterRemoveCellMeta": "afterRemoveCellMeta";
     "afterRemoveCol": "afterRemoveCol";
     "afterRemoveRow": "afterRemoveRow";
@@ -479,8 +472,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "afterSetDataAtRowProp": "afterSetDataAtRowProp";
     "afterTrimRow": "afterTrimRow";
     "afterUndo": "afterUndo";
-    "afterUnhideColumns": "afterUnhideColumns";
-    "afterUnhideRows": "afterUnhideRows";
     "afterUnlisten": "afterUnlisten";
     "afterUnmergeCells": "afterUnmergeCells";
     "afterUntrimRow": "afterUntrimRow";
@@ -509,8 +500,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "beforeDropdownMenuShow": "beforeDropdownMenuShow";
     "beforeFilter": "beforeFilter";
     "beforeGetCellMeta": "beforeGetCellMeta";
-    "beforeHideColumns": "beforeHideColumns";
-    "beforeHideRows": "beforeHideRows";
     "beforeInit": "beforeInit";
     "beforeInitWalkontable": "beforeInitWalkontable";
     "beforeKeyDown": "beforeKeyDown";
@@ -523,7 +512,6 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "beforeOnCellMouseUp": "beforeOnCellMouseUp";
     "beforePaste": "beforePaste";
     "beforeRedo": "beforeRedo";
-    "beforeRefreshDimensions": "beforeRefreshDimensions";
     "beforeRemoveCellClassNames": "beforeRemoveCellClassNames";
     "beforeRemoveCellMeta": "beforeRemoveCellMeta";
     "beforeRemoveCol": "beforeRemoveCol";
@@ -537,12 +525,8 @@ export declare class HotTableComponent implements AfterViewInit, OnChanges, OnDe
     "beforeSetRangeStartOnly": "beforeSetRangeStartOnly";
     "beforeStretchingColumnWidth": "beforeStretchingColumnWidth";
     "beforeTouchScroll": "beforeTouchScroll";
-    "beforeTrimRow": "beforeTrimRow";
     "beforeUndo": "beforeUndo";
-    "beforeUnhideColumns": "beforeUnhideColumns";
-    "beforeUnhideRows": "beforeUnhideRows";
     "beforeUnmergeCells": "beforeUnmergeCells";
-    "beforeUntrimRow": "beforeUntrimRow";
     "beforeValidate": "beforeValidate";
     "beforeValueRender": "beforeValueRender";
     "construct": "construct";
